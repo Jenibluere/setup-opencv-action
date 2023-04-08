@@ -39,7 +39,7 @@ async function run() {
                 'libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev ' +
                 'libxine2-dev libv4l-dev ' +
                 'libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev ' +
-                'qt5-default libgtk2.0-dev libtbb-dev ' +
+                'qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgtk2.0-dev libtbb-dev ' +
                 'libatlas-base-dev ' +
                 'libfaac-dev libmp3lame-dev libtheora-dev ' +
                 'libvorbis-dev libxvidcore-dev ' +
