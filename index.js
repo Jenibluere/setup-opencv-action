@@ -45,9 +45,11 @@ async function run() {
                 'libvorbis-dev libxvidcore-dev ' +
                 'libopencore-amrnb-dev libopencore-amrwb-dev ' +
                 'libtbb2 libtiff-dev ' +
-                'python-numpy ' +
+                // 'python-numpy ' +
                 'x264 v4l-utils '
             );
+            await exec.exec('sudo pip install --upgrade pip');
+            await exec.exec('sudo pip install numpy');
             core.endGroup();
         }
 
