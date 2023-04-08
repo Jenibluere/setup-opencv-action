@@ -38,7 +38,7 @@ async function run() {
                 'git gfortran libjpeg8-dev libjasper1 libjasper-dev libpng-dev ' +
                 'libavcodec-dev libavformat-dev libswscale-dev libdc1394-dev ' +
                 'libxine2-dev libv4l-dev ' +
-                'libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev ' +
+                'libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libunwind-dev ' +
                 'qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgtk2.0-dev libtbb-dev ' +
                 'libatlas-base-dev ' +
                 'libfaac-dev libmp3lame-dev libtheora-dev ' +
