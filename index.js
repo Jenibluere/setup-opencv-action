@@ -36,7 +36,7 @@ async function run() {
             await exec.exec('sudo apt-get install -y ' +
                 'build-essential checkinstall git cmake pkg-config yasm ' +
                 'git gfortran libjpeg8-dev libjasper1 libjasper-dev libpng-dev ' +
-                'libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev ' +
+                'libavcodec-dev libavformat-dev libswscale-dev libdc1394-dev ' +
                 'libxine2-dev libv4l-dev ' +
                 'libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev ' +
                 'qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgtk2.0-dev libtbb-dev ' +
